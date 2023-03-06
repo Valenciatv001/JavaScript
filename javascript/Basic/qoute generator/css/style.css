@@ -1,0 +1,53 @@
+body {
+  background-color: rgba(128, 128, 128, 0.37);
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+  }
+  
+  .quote {
+    width: 80%;
+    padding: 1rem;
+    border: 3px solid black;
+    border-radius: 17px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+
+  }
+  
+  #generateButton {
+    margin-top: 2rem;
+    padding: 0.5rem 1rem;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+  }
+
+  #generateButton:hover {
+    color: rgba(0, 0, 0, 0.767);
+    background-color: rgba(128, 128, 128, 0.527);
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+

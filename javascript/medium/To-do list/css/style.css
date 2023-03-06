@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: lightgray;
+}
+
+.section {
+    justify-content: center;
+    margin: 5%;
+}
+
+
+input {
+ height: 28px;
+ border-color: black;
+ border-radius: 7px;
+ color: rgba(0, 0, 0, 0.801);
+ font-family: 'Lato', sans-serif;
+ font-size: 1rem;
+}
+
+button {
+ height: 28px;
+ border-color: black;
+ border-radius: 7px;
+ color: rgba(0, 0, 0, 0.801);
+ font-family: 'Lato', sans-serif;
+ font-size: 1rem;
+}
+
+ul {
+    padding: 2rem;
+    display: grid;
+}
